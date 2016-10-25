@@ -1,0 +1,109 @@
+/* Import Fonts
+=================================================================== */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300);	/* Google Web Fonts */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400);	/* Google Web Fonts */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:600);	/* Google Web Fonts */
+@import url(http://fonts.googleapis.com/css?family=Arimo:300);	/* Google Web Fonts */
+@import url(http://fonts.googleapis.com/css?family=Arimo:400);	/* Google Web Fonts */
+@import url(http://fonts.googleapis.com/css?family=Arimo:600);	/* Google Web Fonts */
+@import url(http://fonts.googleapis.com/css?family=Merriweather+Sans:300);	/* Google Web Fonts */
+@import url(http://fonts.googleapis.com/css?family=Merriweather+Sans:400);	/* Google Web Fonts */
+@import url(http://fonts.googleapis.com/css?family=Merriweather+Sans:600);	/* Google Web Fonts */
+
+/* Main Colors
+=================================================================== */
+.blue {
+  color: #67c2ef;
+}
+.lightBlue {
+  color: #67c2ef;
+}
+.green {
+  color: #bdea74;
+}
+.darkGreen {
+  color: #78cd51;
+}
+.pink {
+  color: #e84c8a;
+}
+.orange {
+  color: #fa603d;
+}
+.lightOrange {
+  color: #fabb3d;
+}
+.red {
+  color: #ff5454;
+}
+.yellow {
+  color: #eae874;
+}
+/* The Basics
+=================================================================== */
+.no-space [class*="span"] {
+  margin-left: 0;
+}
+.noMarginLeft {
+  margin-left: 0px !important;
+}
+body {
+  background: #f5f5f5;
+  color: #3b3b41;
+  border: none;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-weight: 400;
+}
+a {
+  color: #666666;
+}
+hr {
+  height: 2px;
+  border: none;
+  background: -moz-linear-gradient(left, rgba(249, 249, 249, 0.25) 0%, #f9f9f9 50%, rgba(249, 249, 249, 0.25) 100%);
+  /* FF3.6+ */
+
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(249, 249, 249, 0.25)), color-stop(50%, #f9f9f9), color-stop(100%, rgba(249, 249, 249, 0.25)));
+  /* Chrome,Safari4+ */
+
+  background: -webkit-linear-gradient(left, rgba(249, 249, 249, 0.25) 0%, #f9f9f9 50%, rgba(249, 249, 249, 0.25) 100%);
+  /* Chrome10+,Safari5.1+ */
+
+  background: -o-linear-gradient(left, rgba(249, 249, 249, 0.25) 0%, #f9f9f9 50%, rgba(249, 249, 249, 0.25) 100%);
+  /* Opera 11.10+ */
+
+  background: -ms-linear-gradient(left, rgba(249, 249, 249, 0.25) 0%, #f9f9f9 50%, rgba(249, 249, 249, 0.25) 100%);
+  /* IE10+ */
+
+  background: linear-gradient(to right, rgba(249, 249, 249, 0.25) 0%, #f9f9f9 50%, rgba(249, 249, 249, 0.25) 100%);
+  /* W3C */
+
+}
+h1 {
+  font-size: 32px;
+  line-height: 32px;
+  font-weight: 400;
+}
+h2 {
+  font-size: 18px;
+  line-height: 16px;
+  font-weight: 400;
+}
+h3 {
+  font-size: 20px;
+  line-height: 15px;
+  font-weight: 400;
+}
+h4 {
+  font-size: 16px;
+  line-height: 14px;
+  font-weight: 400;
+}
+h5 {
+  font-size: 13px;
+  line-height: 13px;
+}
+h6 {
+  font-size: 12px;
+  line-height: 12px;
+}
