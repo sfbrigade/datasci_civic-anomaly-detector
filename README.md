@@ -8,7 +8,7 @@ The aim of this project is to develop a highly versatile temporal-spatial anomal
 
 [![](www/shiny_anomalies-R_jude-calvillo_mock.png)](https://judec.shinyapps.io/shiny_anomaly_detection/) 
 
-This app will be an abstraction of the DSWG's [Dept. of Transportation Hazmat Incident Anomaly Detector](www/shiny_anomalies-R_jude-calvillo_mock.png)](https://judec.shinyapps.io/shiny_anomaly_detection/), where its interface and purported relevance will be generalized, while its inputs and parameters will be as follows:
+This app will be an abstraction of the DSWG's [Dept. of Transportation Hazmat Incident Anomaly Detector](https://judec.shinyapps.io/shiny_anomaly_detection/), where its interface and purported relevance will be generalized, while its inputs and parameters will be as follows:
 
 * Inputs:
   - Data (uploaded or API)
